@@ -4,12 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev":"nodemon index.js",
+    "dev": "nodemon index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sandesh Prabhu",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.18.2",
     "pdf-creator-node": "^2.3.5"
   },
   "devDependencies": {
